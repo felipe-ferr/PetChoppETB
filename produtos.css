@@ -1,0 +1,211 @@
+
+h1{
+	text-align: left;
+	font-family: Trebuchet MS, sans-serif;
+	font-size: 40px;
+	padding-left:1cm;
+	color: #761100; /*vermelho escuro*/
+}
+p {
+	text-align: left;
+	font-family: Trebuchet MS, sans-serif;
+	font-size: 20px;
+	padding-left:1cm;
+	color: #761100; /*vermelho escuro*/
+	
+}
+body {
+	background-image: url("imagem/geral/dogfundo.png");
+	background-color: #FFF3F0; /*vermelho quase branco*/
+	margin: 0px;
+	
+}
+
+
+.header {
+	background-color: #761100; /*vermelho escuro*/
+	background-image: url("imagem/geral/dogheader.png");
+    padding: 10px;
+}
+
+.produtos {
+	box-sizing: box-model;
+	float:left;
+	margin-left: 2.5cm;
+	margin-top: 50px;
+
+}
+.produtos p.promo{
+	margin-top: 10px;
+	border-radius: 10px;
+	margin-left:76px;
+	padding:5px;
+	background-color: RoyalBlue;
+	width: 50px;
+	font-size: 15px;
+	color: black;
+	text-align: center;
+	font-family: Trebuchet MS, sans-serif;
+
+
+}
+
+.produtos img {
+	width: 210px;
+	height: 200px;
+	margin-bottom:5px;
+	border: 2px double #982C03;
+	transition-duration: 0.2s;
+}
+.produtos img:hover {
+	transition-duration: 0.2s;
+	transform: scale(1.3);
+	border: none;
+	
+}
+
+.desc{
+	box-sizing: border-box;
+	border: 2px solid #982C03;
+	height: 315px;
+	background-color: FFDBD4;
+	
+
+}
+.desc p {
+	padding: 0px;
+	color: black;
+	text-align: center;
+	font-family: Trebuchet MS, sans-serif;
+}
+.desc p.preco{
+	margin-top: 50px;
+	font-size: 30px;
+	color: D52B0E;
+	font-family: , sans-serif;
+
+}
+.desc p.pequeno{
+	font-size: 15px;
+	color: black;
+	text-align: center;
+	font-family: Trebuchet MS, sans-serif;
+
+}
+
+.desc a {
+	float:left;
+	margin-top:-25px;
+	margin-left: 45px;
+	color: black;
+	text-align: center;
+	font-family: Candara, sans-serif;
+	font-size: 20px;
+	padding: 25px;
+	text-decoration: none;
+	background-color: red;
+	border-radius: 15px;
+	transition-duration: 0.2s;
+}
+.desc a:hover{
+	opacity: 0.4;
+	cursor: wait;
+	
+	
+
+}
+
+	
+	
+/*barra de navegação embaixo do header*/
+.nav2 {
+	overflow:hidden;
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+    background-color:3B0C01; /*vermelho mais escuro*/
+    color: white;
+	margin-top: 0px;
+	border-radius: 0px 0px 5px 5px;
+	padding: 0px;
+
+}
+
+
+.nav2 a {
+    display: block;
+	float:right;
+    text-align: center;
+    text-decoration: none;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    color:white;
+    padding: 24px;
+    transform: translateX(0px);
+    transition-duration: 0.5s;
+}
+
+.nav2 a:hover {
+	background-color: #761100; 
+    transform: translateX(-6px);
+	box-shadow: inset 0px 5px white;
+}
+
+
+.ativo {
+	background-color: black;
+	color:white;
+	cursor: not-allowed;
+	float:left;
+	display: block;
+	margin-top: -70px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    color:white;
+    padding: 23px;
+
+}
+
+footer {
+	background-color: 1C1C1C;
+	padding: 20px;
+    margin-top: 40cm;
+	height: 8cm;
+}
+
+.navteste {
+	margin-top: 500px;
+	box-sizing: border-box;
+	overflow:hidden;
+    width: 100%;
+    height: 70px;
+    background-color:852906; /*vermelho mais escuro*/
+    color: white;
+	border-radius: 0px 0px 5px 5px;
+	padding: 0px;
+}
+.navteste a{
+	
+	float:left;
+	display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 24px;
+    transform: translateX(0px);
+    transition-duration: 0.3s;
+}
+.navteste a:hover {
+	background-color: white;
+	color:black;
+}
+	

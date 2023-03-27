@@ -1,0 +1,441 @@
+*{
+	box-sizing: border-box;
+
+}
+img{
+	max-width:100%;
+	
+}
+
+
+h1{
+	text-align: center;
+	font-family: Candara, sans-serif;
+	font-size: 50px;
+	color: #761100; /*vermelho escuro*/
+}
+
+
+p {
+	text-align: center;
+	font-family: Candara, sans-serif;
+	font-size: 25px;
+	color: #761100; /*vermelho escuro*/
+}
+
+a {
+	text-decoration: none;
+}
+
+.header {
+	background-color: #761100; /*vermelho escuro*/
+	background-image: url("imagem/geral/dogheader.png");
+    padding: 10px;
+}
+
+body {
+	background-image: url("imagem/geral/dogfundo.png");
+	background-color: #FFF3F0; /*vermelho quase branco*/
+	margin: 0px;
+	
+}
+
+
+.produtos {
+	box-sizing: border-box;
+	float:left;
+	margin-left: 2.5cm;
+	margin-top: 50px;
+
+}
+.produtos p.promo{
+	margin-top: 10px;
+	border-radius: 10px;
+	margin-left:76px;
+	padding:5px;
+	background-color: DeepSkyBlue;
+	width: 55px;
+	font-size: 15px;
+	color: black;
+	text-align: center;
+	font-family: Trebuchet MS, sans-serif;
+
+
+}
+
+.produtos img {
+	box-sizing: border-box;
+	width: 210px;
+	height: 200px;
+	margin-bottom:5px;
+	border: 2px double #982C03;
+	transition-duration: 0.2s;
+}
+.produtos img:hover{
+
+	transition-duration: 0.2s;
+	transform: scale(1.6);
+	border: none;
+	position:sticky;
+	
+}
+
+.desc{
+	width:100%;
+	box-sizing: border-box;
+	border: 2px solid #982C03;
+	height: 385px;
+	background-color: FFDBD4;
+	
+
+}
+.desc p.prod {
+	box-sizing: border-box;
+	padding: 0px;
+	color: black;
+	text-align: center;
+	font-family: Trebuchet MS, sans-serif;
+}
+.desc p.preco{
+	margin-top: 50px;
+	font-size: 30px;
+	color: D52B0E;
+	font-family: Trebuchet MS, sans-serif;
+	
+
+}
+.desc p.pequeno{
+	font-size: 15px;
+	color: black;
+	text-align: center;
+	font-family: Trebuchet MS, sans-serif;
+
+}
+
+.desc a {
+	box-sizing:border-box;
+	float:left;
+	margin-top:-25px;
+	margin-left: 35px;
+	color: black;
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	font-size: 20px;
+	padding: 25px;
+	text-decoration: none;
+	background-color: red;
+	border-radius: 15px;
+	transition-duration: 0.2s;
+}
+.desc a:hover{
+	opacity: 0.4;
+	cursor: wait;
+	
+}
+
+
+.center {
+  position: relative;
+  
+ 
+}	
+
+.vermais a{
+	margin-top: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	box-sizing:border-box;
+	color: black;
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	font-size: 20px;
+	padding: 25px;
+	text-decoration: none;
+	background-color: red;
+	border-radius: 15px;
+	transition-duration: 0.7s;
+	
+}
+.vermais a:hover{
+	box-shadow: inset 300px 0px 5px orange;
+
+}
+
+/* config do quem somos nós*/
+.about {	
+    box-sizing: border-box;
+	text-align: justify;
+	font-size: 20px;
+	border: 2px solid #761100;
+    background-color: FFDBD4;
+	padding: 20px;
+	margin-bottom: 2cm;
+	color: #761100; /*vermelho escuro*/
+	transition-duration: 0.5s;
+
+}
+.about:hover {
+	box-shadow: 0px 5px 0px 0px red;
+}
+
+
+.cachorro a {
+	background-image: linear-gradient(90deg, rgba(0,0,0,0) 35%, rgba(118,17,0,0) 100%), url("imagem/geral/cachorrohome.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 850px 350px;
+	margin-top: 20px;
+    display: block;
+	box-sizing: border-box;
+	overflow:hidden;
+	border-left: 4px solid #761100;
+	border-right: 4px solid #761100;
+	width: 780px;
+	height: 300px;
+	padding: 70px 20px 20px 50px;
+    text-decoration: none;
+    font-family: Candara;
+    font-size: 70px;
+    color: rgba(0, 0, 0, 0);
+    text-align: left;
+    transform: translateX(0px);
+    transition-duration: 0.5s;
+}
+
+
+.cachorro a:hover {
+    color:black;
+    transform: translateX(-6px);
+	box-shadow: inset 850px 0px rgba(255,0,36,0.6);
+	text-shadow: 6px 3px 0px rgba(0,0,0,0.19);
+}
+
+.gato a {
+	background-image: linear-gradient(90deg, rgba(0,0,0,0) 35%, rgba(118,17,0,0) 100%), url("imagem/geral/gatohome.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 900px 350px;
+	margin-top: 20px;
+    display: block;
+	box-sizing: border-box;
+	overflow:hidden;
+	border-left: 4px solid #761100;
+	border-right: 4px solid #761100;
+	width: 780px;
+	height: 300px;
+	padding: 70px 20px 20px 50px;
+    text-decoration: none;
+    font-family: Candara;
+    font-size: 70px;
+    color: rgba(0, 0, 0, 0);
+    text-align: left;
+    transform: translateX(0px);
+    transition-duration: 0.5s;
+}
+
+
+.gato a:hover {
+    color:black;
+    transform: translateX(-6px);
+	box-shadow: inset 850px 0px rgba(255,0,36,0.6);
+	text-shadow: 6px 3px 0px rgba(0,0,0,0.19);
+}
+.exotico a {
+	background-image: linear-gradient(90deg, rgba(0,0,0,0) 35%, rgba(118,17,0,0) 100%), url("imagem/geral/coelhohome.png");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: 850px 350px;
+	margin-top: 20px;
+    display: block;
+	box-sizing: border-box;
+	overflow:hidden;
+	border-left: 4px solid #761100;
+	border-right: 4px solid #761100;
+	width: 780px;
+	height: 300px;
+	padding: 70px 20px 20px 50px;
+    text-decoration: none;
+    font-family: Candara;
+    font-size: 70px;
+    color: rgba(0, 0, 0, 0);
+    text-align: left;
+    transform: translateX(0px);
+    transition-duration: 0.5s;
+}
+
+
+.exotico a:hover {
+    color:black;
+    transform: translateX(-6px);
+	box-shadow: inset 850px 0px rgba(255,0,36,0.6);
+	text-shadow: 6px 3px 0px rgba(0,0,0,0.19);
+}
+/*barra de navegação dentro do header*/
+
+
+.nav {  /*config da barra de navegaçao*/
+	overflow:hidden;
+	width: 800px;
+	margin-left: 10.8cm;
+}
+
+
+/*config dos botões dos links*/
+.nav a{
+	margin-left: 20px;
+	float:left;
+	display: block;
+	padding: 10;
+	text-align:center;
+	background-color:3B0C01;
+	height: 30px;
+	text-decoration:none;
+	color:white;
+	font-size: 20px;
+	font-family: Trebuchet MS, sans-serif; 
+	border-left:3px solid white;
+    border-radius: 5px;	
+    transform: translateX(0px);
+    transition-duration: 0.5s;	
+	overflow:hidden;
+
+}
+
+.nav a:hover {
+    color:black;
+    transform: translateX(-6px);
+	font-size: 21px;
+	box-shadow: inset 200px 0px white;
+}
+
+
+/*barra de navegação embaixo do header*/
+
+.nav2 {
+	overflow:hidden;
+    width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+    background-color:3B0C01; /*vermelho mais escuro*/
+    color: white;
+	margin-top: 0px;
+	border-radius: 0px 0px 5px 5px;
+	padding: 0px;
+
+}
+
+
+.nav2 a {
+    display: block;
+	float:right;
+    text-align: center;
+    text-decoration: none;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    color:white;
+    padding: 24px;
+    transform: translateX(0px);
+    transition-duration: 0.5s;
+}
+
+.nav2 a:hover {
+	background-color: #761100; 
+    transform: translateX(-6px);
+	box-shadow: inset 0px 5px white;
+}
+
+
+.ativo {
+	background-color: black;
+	color:white;
+	cursor: not-allowed;
+	float:left;
+	display: block;
+	margin-top: -70px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Trebuchet MS, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    color:white;
+    padding: 23px;
+
+}
+
+.frame{
+	position:relative;
+	box-sizing: border-box;
+	border: 2px solid #761100;
+	margin-bottom:100px;
+	left: 120px;
+	top:120px;
+	float:left;
+
+}
+.redes {
+	position:relative;
+	overflow:hidden;
+	box-sizing: border-box;
+	border: 2px solid #761100;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+    background-color: FFDBD4;
+	width: 300px;
+	height: 300px;
+	color: #761100; /*vermelho escuro*/
+	transition-duration: 0.5s;
+
+}
+.redes a{
+	float:left;
+	display: block;
+	width: 350px;
+	text-decoration:none;
+    transition-duration: 0.5s;	
+}
+.redes p{
+	text-align:left;
+	text-decoration:none;
+	color:black;
+	font-size: 25px;
+	font-family: Trebuchet MS, sans-serif; 
+}
+.redes a:hover{
+	background-color: Salmon;
+    transform: scale(1.1);
+}
+	
+.redes img{
+	box-sizing: border-box;
+	width:100px;
+	height:100px;
+	padding:20px;
+	float:left;
+}
+
+
+footer {
+	background-color: 1C1C1C;
+	padding: 20px;
+    margin-top: 50%;
+	height: 8cm;
+}
+
+
+footer p{
+	text-align: left;
+	font-family: Trebuchet MS, sans-serif;
+	font-size: 20px;
+	padding-left:1cm;
+	color: #962B04; /*vermelho escuro*/
+
+}
+
+
+
+
